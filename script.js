@@ -1,5 +1,9 @@
 function firstWord(s) {
-  return str.trim().split(/\s+/)[0];
+	if(s.split(" ").length >= 2){
+	  return s.trim().split(/\s+/)[0];
+	}else {
+		return s;
+	}
 }
 
 // Do not change the code below
