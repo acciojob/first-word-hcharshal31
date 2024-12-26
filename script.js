@@ -1,8 +1,11 @@
 function firstWord(s) {
-  // your code here
+  return str.trim().split(/\s+/)[0];
 }
 
 // Do not change the code below
-
-const s = prompt("Enter String:");
-alert(firstWord(s));
+console.log(firstWord('see and stop'));
+console.log(firstWord(' Hello World!')firstWord('12345'));
+console.log(firstWord('12345'));
+console.log(firstWord(''));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
