@@ -8,7 +8,7 @@ function firstWord(s) {
 
 // Do not change the code below
 console.log(firstWord('see and stop'));
-console.log(firstWord(' Hello World!')firstWord('12345'));
+console.log(firstWord(' Hello World!'));
 console.log(firstWord('12345'));
 console.log(firstWord(''));
 // const s = prompt("Enter String:");
